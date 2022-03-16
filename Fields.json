@@ -1,0 +1,62 @@
+{
+  "main_label": {
+    "type": "text",
+    "label": "Main Label",
+    "value": "Unlock Next"
+  },
+  "fill_color": {
+    "type": "colorpicker",
+    "label": "Loading Bar Color",
+    "value": "blue"
+  },
+  "level_1": {
+    "type": "text",
+    "label": "goal test 1",
+    "value": "palceholder"
+  },
+  "level_1_value": {
+    "type": "number",
+    "label": "goal test 1 value",
+    "value": 0
+  },
+  "level_2": {
+    "type": "text",
+    "label": "goal test 2",
+    "value": "palceholder"
+  },
+  "level_2_value": {
+    "type": "number",
+    "label": "goal test 2 value",
+    "value": 0
+  },
+  "level_3": {
+    "type": "text",
+    "label": "Richissime je deviens",
+    "value": "palceholder"
+  },
+  "level_3_value": {
+    "type": "number",
+    "label": "goal test 3 value",
+    "value": 0
+  },
+  "level_4": {
+    "type": "text",
+    "label": "Qui veut gagner des millions peut se cacher",
+    "value": "palceholder"
+  },
+  "level_4_value": {
+    "type": "number",
+    "label": "goal test 4 value",
+    "value": 0
+  },
+  "level_5": {
+    "type": "text",
+    "label": "Elon musk attention j'arrive",
+    "value": "palceholder"
+  },
+  "level_5_value": {
+    "type": "number",
+    "label": "goal test 5 value",
+    "value": 0
+  }
+}

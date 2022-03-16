@@ -1,0 +1,53 @@
+#progress {
+    float: right;
+    font-family: Karla, sans-serif;
+    font-size: 23px;
+    line-height: 23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 800px;
+    align-items: center;
+    justify-content: flex-end; }
+#progress label {
+    align-self: flex-end;
+    height: 20px;
+    padding: .7em 1em;
+    border-radius: 1.5em;
+    background: rgba(23, 23, 23, 0.6);
+    display: flex;
+    align-items: center; }
+#progress #bar {
+    width: 94%;
+    height: 20px;
+    padding: .7em 1em;
+    border-radius: 1.5em;
+    background: rgba(23, 23, 23, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    flex-wrap: wrap; }
+#progress #bar::before, #progress #bar .loading {
+    content: '';
+    background: rgba(23, 23, 23, 0.6);
+    border-radius: 1.5em;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2; }
+#progress #bar .loading {
+    background: rgba(13, 166, 255, 0.9);
+    min-width: 13%;
+    width: 13%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: .5s all ease-in-out; }
+#progress #bar .loading .amount {
+    position: relative;
+    padding-right: 1em; }
